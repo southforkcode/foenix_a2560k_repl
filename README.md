@@ -10,13 +10,15 @@ You need vasm compiled for the 68040 using Motorola syntax.
 
 http://sun.hasenbraten.de/vasm/
 
-`vasmm68k_mot -Fbin -o repl.pgx ~/Projects/foenix_2560_test/repl.s`
+`vasmm68k_mot -Fbin -o repl.pgx src/repl.s`
 
 ## Running
 
 After copying over to a SD card and inserting that into the A2560K, you can run the executable with
 
 `/sd/repl.pgx`
+
+See https://github.com/pweingar/FoenixMgr for a useful utility for copying over binaries using the debug port over USB.
 
 ## Commands
 
