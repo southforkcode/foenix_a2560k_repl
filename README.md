@@ -10,7 +10,15 @@ You need vasm compiled for the 68040 using Motorola syntax.
 
 http://sun.hasenbraten.de/vasm/
 
+Simply, you can compile the example with the following.
+
 `vasmm68k_mot -Fbin -o repl.pgx src/repl.s`
+
+Or if on a system with make, from project root directory:
+
+`make` 
+
+You will need to have vasmm68k_mot in your path, or you can modify the Makefile to specify exactly where it is.
 
 ## Running
 
